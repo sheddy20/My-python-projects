@@ -1,5 +1,8 @@
 a = [1, 2, 3, 4]
 
-b = [1, 2, 3, 4]
+b = a
 
-print(a == b)
+print(id(a))
+print(id(b))
+
+print(id(a) == id(b))
